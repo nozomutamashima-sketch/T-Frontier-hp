@@ -9,8 +9,8 @@ const Services = () => {
         {
             id: 1,
             icon: <AreaChart size={32} />,
-            title: <span>「迷い」をなくす、<br />店舗データ分析</span>,
-            description: <span>単発（スポット）依頼OK。<br />POSデータやExcelから<br />「利益の漏れ」を見つけ出し、<br />即効性のある改善案を提示します。</span>,
+            title: <span><span className="inline-block">「迷い」をなくす、</span><br /><span className="inline-block">店舗データ分析</span></span>,
+            description: <span><span className="inline-block">単発（スポット）依頼OK。</span><br /><span className="inline-block">POSデータやExcelから</span><br /><span className="inline-block">「利益の漏れ」を見つけ出し、</span><br /><span className="inline-block">即効性のある改善案を提示します。</span></span>,
             catchphrase: "「なんとなく」の不安を、数字で「確信」に変える。\nまずは1回、お店の健康診断をしてみませんか？",
             fullDescription: `・「データ分析」と聞くと大掛かりに聞こえますが、やることはシンプルです。
 今の売上データを預かり、利益を増やすための「正解」をレポートする。
@@ -35,8 +35,8 @@ const Services = () => {
         {
             id: 2,
             icon: <BrainCircuit size={32} />,
-            title: <span>「手間」と「不安」を消す、<br />AI導入・法務支援</span>,
-            description: <span>単発（スポット）依頼OK。<br />スマホで撮るだけの<br />「食品表示チェック」や、<br />事務作業の自動化ツールを作成します。</span>,
+            title: <span><span className="inline-block">「手間」と「不安」を消す、</span><br /><span className="inline-block">AI導入・法務支援</span></span>,
+            description: <span><span className="inline-block">単発（スポット）依頼OK。</span><br /><span className="inline-block">スマホで撮るだけの</span><br /><span className="inline-block">「食品表示チェック」や、</span><br /><span className="inline-block">事務作業の自動化ツールを作成します。</span></span>,
             catchphrase: "「AIって難しそう」と思っていませんか？\nあなたの仕事を代わりに片付ける、頼れる「相棒」を作ります。",
             fullDescription: `・「AI活用」に、専門知識は一切不要です。
 食品表示チェックやメール作成など、あなたの「面倒」を代行するツールを、オーダーメイドで作成・納品します。
@@ -61,8 +61,8 @@ const Services = () => {
         {
             id: 3,
             icon: <PenTool size={32} />,
-            title: <span>「価値」が伝わる、<br />Web・販促制作</span>,
-            description: <span>単発（スポット）依頼OK。<br />LP制作から営業資料まで。<br />「顧客が選びたくなる」<br />見せ方に変換します。</span>,
+            title: <span><span className="inline-block">「価値」が伝わる、</span><br /><span className="inline-block">Web・販促制作</span></span>,
+            description: <span><span className="inline-block">単発（スポット）依頼OK。</span><br /><span className="inline-block">LP制作から営業資料まで。</span><br /><span className="inline-block">「顧客が選びたくなる」</span><br /><span className="inline-block">見せ方に変換します。</span></span>,
             catchphrase: "「説明」は読まれません。\n一瞬で「価値」が伝わる、顧客視点のデザインを。",
             fullDescription: `「良い商品」なのに売れない原因は、伝え方にあります。
 徹底的な「顧客視点」で、あなたの商品の魅力を言語化・可視化し、成果に直結するクリエイティブを制作します。`,

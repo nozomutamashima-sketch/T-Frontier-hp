@@ -22,8 +22,10 @@ const Contact = () => {
                     </h3>
 
                     <p className="text-lg text-slate-300 mb-12 leading-relaxed">
-                        食品表示の専門的な相談から、日々の漠然とした売上管理の悩みまで。<br className="hidden md:block" />
-                        些細なことでも構いません。お気軽にご連絡ください。
+                        <span className="inline-block">食品表示の専門的な相談から、</span>
+                        <span className="inline-block">日々の漠然とした売上管理の悩みまで。</span><br className="hidden md:block" />
+                        <span className="inline-block">些細なことでも構いません。</span>
+                        <span className="inline-block">お気軽にご連絡ください。</span>
                     </p>
 
                     <a

@@ -6,22 +6,22 @@ const Workflow = () => {
         {
             icon: <MessageSquare size={28} />,
             title: "お問い合わせ",
-            desc: <span>まずはフォームよりお気軽に<br />ご相談ください。</span>
+            desc: <span><span className="inline-block">まずはフォームよりお気軽に</span><br /><span className="inline-block">ご相談ください。</span></span>
         },
         {
             icon: <HeartHandshake size={28} />,
             title: "ヒアリング",
-            desc: <span>現在の課題や目標を丁寧に<br />お伺いします。</span>
+            desc: <span><span className="inline-block">現在の課題や目標を丁寧に</span><br /><span className="inline-block">お伺いします。</span></span>
         },
         {
             icon: <Search size={28} />,
             title: "ご提案・お見積り",
-            desc: <span>課題に応じた施策、<br />サービスをご提案させていただきます。</span>
+            desc: <span><span className="inline-block">課題に応じた施策、</span><br /><span className="inline-block">サービスをご提案させていただきます。</span></span>
         },
         {
             icon: <Rocket size={28} />,
             title: "支援スタート",
-            desc: <span>施策の実行から効果検証まで<br />伴走します。</span>
+            desc: <span><span className="inline-block">施策の実行から効果検証まで</span><br /><span className="inline-block">伴走します。</span></span>
         }
     ];
 
@@ -45,7 +45,7 @@ const Workflow = () => {
                                 </div>
                             </div>
                             <h3 className="text-xl font-bold text-navy-900 mb-2">{step.title}</h3>
-                            <p className="text-slate-600 text-sm max-w-[200px]">{step.desc}</p>
+                            <p className="text-slate-600 text-sm whitespace-nowrap">{step.desc}</p>
 
                             {/* Connecting Line (Mobile) */}
                             {index !== steps.length - 1 && (
