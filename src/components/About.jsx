@@ -38,8 +38,7 @@ const About = () => {
                                 </div>
                                 <div className="flex flex-col items-start">
                                     <span className="font-serif text-2xl font-bold tracking-wide leading-tight group-hover:text-gold-100">
-                                        T-Frontier<br />
-                                        の想い
+                                        T-Frontierの想い
                                     </span>
                                     <span className="text-sm font-sans tracking-wider text-gold-600 group-hover:text-gold-400">Our Philosophy</span>
                                 </div>
@@ -63,12 +62,12 @@ const About = () => {
                             <p className="text-slate-600 leading-loose text-lg text-justify tracking-wide">
                                 この<strong className="text-gold-600 mx-1">2つの視点</strong>を持つ<br className="md:hidden" />
                                 私だからこそできる、<br className="hidden lg:block" />
-                                <strong className="text-navy-900 border-b-2 border-gold-300 mx-1">地に足のついた<br className="md:hidden" />DX支援</strong>があります。
+                                <strong className="text-navy-900 border-b-2 border-gold-300 mx-1">地に足のついたDX支援</strong>があります。
                             </p>
 
                             <p className="text-slate-600 leading-loose text-lg text-justify tracking-wide">
-                                難しい専門用語は使いません。<br className="hidden lg:block" />
-                                あなたの事業の<strong className="text-navy-900 text-xl mx-1 font-serif">「右腕」</strong>として、共に利益最大化を目指します。
+                                難しい専門用語は使いません。<br />
+                                あなたの事業の<strong className="text-navy-900 text-xl mx-1 font-serif">「右腕」</strong>として、<br />共に利益最大化を目指します。
                             </p>
                         </div>
 

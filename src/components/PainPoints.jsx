@@ -10,22 +10,22 @@ const PainPoints = () => {
         {
             icon: <LayoutDashboard size={32} />,
             title: "データ分析",
-            text: <span>直感だけの経営はもう限界。<br />「売上ダッシュボード」で数字を可視化し、<br />確実な判断がしたい。</span>
+            text: <span>直感だけの経営はもう限界。<br />「売上ダッシュボード」で<br className="hidden md:block" />数字を可視化し、<br className="md:hidden" />確実な判断がしたい。</span>
         },
         {
             icon: <Brain size={32} />,
             title: "AI導入サポート",
-            text: "知識ゼロでも業務を効率化したい。「AI活用」の第一歩を、隣で伴走してサポートしてほしい。"
+            text: <span>知識ゼロでも業務を効率化。<br />「AI活用」の第一歩を、隣で伴走して<br className="md:hidden" />サポートしてほしい。</span>
         },
         {
             icon: <ShieldCheck size={32} />,
             title: "法律AI活用",
-            text: <span>食品表示のミスは命取り。<br />「AIチェック」で法務リスクを回避し、安心を手に入れたい。</span>
+            text: <span>食品表示のミスは命取り。<br />「AIチェック」で法務リスクを回避し、<br className="md:hidden" />安心を手に入れたい。</span>
         },
         {
             icon: <Globe size={32} />,
             title: "Web発信・集客",
-            text: "良いものなのに伝わらない。「Webブランディング」を強化し、新規顧客を呼び込みたい。"
+            text: <span>良いものなのに伝わらない。<br />「Webブランディング」を<br className="hidden md:block" />強化し、<br className="md:hidden" />新規顧客を<br className="hidden md:block" />呼び込みたい。</span>
         }
     ];
 
@@ -36,7 +36,7 @@ const PainPoints = () => {
                 <div className="mb-24 text-center mx-auto max-w-4xl">
                     <span className="text-gold-500 font-bold tracking-widest uppercase text-sm mb-4 block">Concerns</span>
                     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-navy-900 leading-[1.6] font-serif mb-10 whitespace-nowrap">
-                        その経営判断、<br className="md:hidden" />
+                        その経営判断、<br />
                         一人で抱え込んでいませんか？
                     </h2>
                     <p className="text-slate-500 text-lg">
