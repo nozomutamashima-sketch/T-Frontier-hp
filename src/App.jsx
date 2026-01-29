@@ -8,8 +8,17 @@ import Workflow from './components/Workflow';
 import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Maintenance from './components/Maintenance';
+
+// メンテナンスモード切り替えフラグ
+// true: メンテナンス画面を表示 / false: 通常通り表示
+const IS_MAINTENANCE_MODE = true;
 
 function App() {
+  if (IS_MAINTENANCE_MODE) {
+    return <Maintenance />;
+  }
+
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
