@@ -31,18 +31,19 @@ const Hero = () => {
 
                     {/* Main Copy */}
                     <h1 className="font-serif text-navy-900 leading-[1.3] mb-20">
-                        <span className="block text-4xl md:text-6xl lg:text-7xl font-bold tracking-wide -ml-1">
-                            <span className="inline-block">百貨店の</span>
-                            <span className="inline-block"><span className="text-gold-500">『戦略』</span>を、</span>
+                        {/* Line 1: Fits on one line by reducing size on mobile (3xl -> 2xl/3xl) */}
+                        <span className="block text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-bold tracking-wide -ml-1 whitespace-nowrap">
+                            百貨店の<span className="text-gold-500">『戦略』</span>を、
                         </span>
 
-                        <span className="block text-3xl md:text-5xl lg:text-6xl font-medium mt-6 text-slate-700">
-                            <span className="inline-block">あなたの</span>
-                            <span className="relative inline-block mx-2 pb-2">
+                        {/* Line 2: "あなたの" and "小さなお店にも" on the same line */}
+                        <span className="block text-xl sm:text-3xl md:text-5xl lg:text-6xl font-medium mt-4 md:mt-6 text-slate-700">
+                            あなたの
+                            <span className="relative inline-block mx-1 md:mx-2 pb-1 md:pb-2">
                                 小さなお店
-                                <span className="absolute bottom-0 left-0 w-full h-[2px] bg-gold-400 opacity-60"></span>
+                                <span className="absolute bottom-0 left-0 w-full h-[1px] md:h-[2px] bg-gold-400 opacity-60"></span>
                             </span>
-                            <span className="inline-block">にも。</span>
+                            にも。
                         </span>
                     </h1>
 

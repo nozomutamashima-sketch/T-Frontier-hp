@@ -10,7 +10,7 @@ const PainPoints = () => {
         {
             icon: <LayoutDashboard size={32} />,
             title: "データ分析",
-            text: "直感だけの経営はもう限界。「売上ダッシュボード」で数字を可視化し、確実な判断がしたい。"
+            text: <span>直感だけの経営はもう限界。<br />「売上ダッシュボード」で数字を可視化し、<br />確実な判断がしたい。</span>
         },
         {
             icon: <Brain size={32} />,
@@ -35,8 +35,8 @@ const PainPoints = () => {
                 {/* Section Header */}
                 <div className="mb-24 text-center mx-auto max-w-4xl">
                     <span className="text-gold-500 font-bold tracking-widest uppercase text-sm mb-4 block">Concerns</span>
-                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-navy-900 leading-[1.6] font-serif mb-10">
-                        その経営判断、<br />
+                    <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-navy-900 leading-[1.6] font-serif mb-10 whitespace-nowrap">
+                        その経営判断、<br className="md:hidden" />
                         一人で抱え込んでいませんか？
                     </h2>
                     <p className="text-slate-500 text-lg">
@@ -56,7 +56,7 @@ const PainPoints = () => {
                             className="group bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-2 border border-slate-100 hover:border-gold-200"
                         >
                             {/* Icon */}
-                            <div className="mb-8 w-16 h-16 bg-navy-50 rounded-full flex items-center justify-center text-navy-900 group-hover:bg-navy-900 group-hover:text-gold-400 transition-colors duration-500">
+                            <div className="mb-8 w-16 h-16 bg-navy-50 rounded-full flex items-center justify-center text-navy-900 group-hover:bg-navy-900 group-hover:text-gold-400 transition-colors duration-500 mx-auto md:mx-0">
                                 {React.cloneElement(point.icon, { size: 28, strokeWidth: 1.5 })}
                             </div>
 

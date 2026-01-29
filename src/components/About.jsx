@@ -37,7 +37,10 @@ const About = () => {
                                     />
                                 </div>
                                 <div className="flex flex-col items-start">
-                                    <span className="font-serif text-2xl font-bold tracking-wide leading-tight group-hover:text-gold-100">T-Frontierの想い</span>
+                                    <span className="font-serif text-2xl font-bold tracking-wide leading-tight group-hover:text-gold-100">
+                                        T-Frontier<br />
+                                        の想い
+                                    </span>
                                     <span className="text-sm font-sans tracking-wider text-gold-600 group-hover:text-gold-400">Our Philosophy</span>
                                 </div>
                                 <ArrowRight className="w-6 h-6 ml-2 text-gold-500 group-hover:text-gold-400 group-hover:translate-x-1 transition-transform" />
@@ -58,8 +61,9 @@ const About = () => {
                             </p>
 
                             <p className="text-slate-600 leading-loose text-lg text-justify tracking-wide">
-                                この<strong className="text-gold-600 mx-1">2つの視点</strong>を持つ私だからこそできる、<br className="hidden lg:block" />
-                                <strong className="text-navy-900 border-b-2 border-gold-300 mx-1">地に足のついたDX支援</strong>があります。
+                                この<strong className="text-gold-600 mx-1">2つの視点</strong>を持つ<br className="md:hidden" />
+                                私だからこそできる、<br className="hidden lg:block" />
+                                <strong className="text-navy-900 border-b-2 border-gold-300 mx-1">地に足のついた<br className="md:hidden" />DX支援</strong>があります。
                             </p>
 
                             <p className="text-slate-600 leading-loose text-lg text-justify tracking-wide">

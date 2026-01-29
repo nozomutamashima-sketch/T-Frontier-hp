@@ -105,8 +105,8 @@ const ServiceModal = ({ isOpen, onClose, content }) => {
                                     <div className="absolute top-0 right-0 w-40 h-40 bg-gold-400/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
 
                                     <div className="relative z-10">
-                                        <div className="flex items-center gap-2 mb-6">
-                                            <span className="bg-gold-500 text-white text-xs font-bold px-2 py-1 rounded">CASE STUDY</span>
+                                        <div className="flex flex-col items-start gap-2 mb-6">
+                                            <span className="bg-gold-500 text-white text-xs font-bold px-2 py-1 rounded inline-block">CASE STUDY</span>
                                             <h4 className="font-bold text-navy-900">活用事例</h4>
                                         </div>
 
