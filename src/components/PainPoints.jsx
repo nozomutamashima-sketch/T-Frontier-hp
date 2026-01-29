@@ -1,4 +1,6 @@
-import React from 'react';
+
+import { motion } from 'framer-motion';
+
 
 import { LayoutDashboard, Brain, ShieldCheck, Globe } from 'lucide-react';
 

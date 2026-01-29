@@ -1,5 +1,5 @@
 import React from 'react';
-import { AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { X, Lightbulb, TrendingUp, Handshake, Quote } from 'lucide-react';
 
 const PhilosophyModal = ({ isOpen, onClose }) => {

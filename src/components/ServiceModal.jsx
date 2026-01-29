@@ -1,5 +1,5 @@
 import React from 'react';
-import { AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { X, CheckCircle2 } from 'lucide-react';
 
 const ServiceModal = ({ isOpen, onClose, content }) => {

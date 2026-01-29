@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Plus, Minus } from 'lucide-react';
-import { AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const FAQ = () => {
     const [activeIndex, setActiveIndex] = useState(null);

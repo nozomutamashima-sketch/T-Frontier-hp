@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 import { ChevronRight, BarChart3, ShieldCheck, MonitorPlay } from 'lucide-react';
 
